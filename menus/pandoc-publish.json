@@ -1,0 +1,64 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Pandoc Publish",
+        "submenu": [
+          {
+            "label": "pdf",
+            "command": "pandoc-publish:pdf"
+          },
+          {
+            "label": "docx",
+            "command": "pandoc-publish:docx"
+          },
+          {
+            "label": "html5",
+            "command": "pandoc-publish:html"
+          },
+          {
+            "label": "text",
+            "command": "pandoc-publish:plain"
+          },
+          {
+            "label": "slideshow",
+            "command": "pandoc-publish:slideshow"
+          }
+        ]
+
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Pandoc Publish",
+          "submenu": [
+            {
+              "label": "pdf",
+              "command": "pandoc-publish:pdf"
+            },
+            {
+              "label": "docx",
+              "command": "pandoc-publish:docx"
+            },
+            {
+              "label": "html5",
+              "command": "pandoc-publish:html"
+            },
+            {
+              "label": "text",
+              "command": "pandoc-publish:plain"
+            },
+            {
+              "label": "slideshow",
+              "command": "pandoc-publish:slideshow"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

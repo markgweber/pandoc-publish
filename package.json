@@ -1,0 +1,31 @@
+{
+  "name": "pandoc-publish",
+  "main": "./lib/pandoc-publish",
+  "version": "0.0.1",
+  "description": "Publish documents from Markdown to PDF, HTML, DOCX, etc. ",
+  "keywords": [
+  ],
+  "repository": "https://github.com/markgweber/pandoc-publish",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "configSchema": {
+    "pandocBinary": {
+      "type": "string",
+      "default": "/usr/local/bin/pandoc",
+      "description": "Full Path to Pandoc Binary"
+    },
+    "latexTemplate": {
+      "type": "string",
+      "default": "",
+      "description": "Either the name of a latex template in the .pandoc/templates folder, or the full path + filename to a latex template"
+    },
+    "formatListings": {
+      "type": "boolean",
+      "default": "true"
+    }
+  }
+}
